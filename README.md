@@ -1,4 +1,4 @@
-# aCDRs input data for PyPSA-Eur
+# Carbon Dioxide Removal (afforestation and perennialisation) input data for PyPSA-Eur
 
 Reference: https://arxiv.org/abs/2603.25663
 

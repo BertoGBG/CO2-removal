@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "CO2-removal: aCDRs input data for PyPSA-Eur (Afforestation and Perennialisation)"
+authors:
+  - family-names: "Alamia"
+    given-names: "Alberto"
+    affiliation: "Technical University of Denmark (DTU)"
+    orcid: "https://orcid.org/0000-0003-1080-1357"
+license: MIT
+repository-code: "https://github.com/BertoGBG/CO2-removal"
+url: "https://github.com/BertoGBG/CO2-removal"
+identifiers:
+  - type: other
+    value: "arXiv:2603.25663"
+    description: "Preprint describing the methodology and the PyPSA-Eur CDR implementation this data accompanies"
