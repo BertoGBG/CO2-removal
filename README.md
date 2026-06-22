@@ -7,8 +7,7 @@ Reference: https://arxiv.org/abs/2603.25663
 ## Overview
 
 This package provides the preprocessed input datasets for two Carbon Dioxide Removal (CDR)
-technologies implemented in PyPSA-Eur: **Afforestation** and **Perennialisation**. It
-accompanies the paper submitted to [journal].
+technologies implemented in PyPSA-Eur: **Afforestation** and **Perennialisation**.
 
 ---
 
