@@ -216,6 +216,17 @@ The following files from this package are directly read by the PyPSA-Eur workflo
 
 ---
 
+## Licence
+
+Copyright 2026 Alberto Alamia and Contributors to PyPSA-Eur
+
+The code in `scripts/` is released as free software under the MIT licence, see
+[LICENSE](LICENSE). However, different licenses and terms of use may apply to the various
+input data — see the per-dataset "Raw input" sections above for each dataset's own reference
+and access terms (Eurostat, Pilli et al./JRC, Avitabile et al./Figshare, FluxCom/Jung et al.).
+
+---
+
 ## Reproducibility note
 
 Re-running the download scripts in the future may produce different results if the
