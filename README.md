@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20798511.svg)](https://doi.org/10.5281/zenodo.20798511)
 
+Archived on Zenodo: https://zenodo.org/records/20798511 (DOI: 10.5281/zenodo.20798511)
+
 Reference: https://arxiv.org/abs/2603.25663
 
 ---
