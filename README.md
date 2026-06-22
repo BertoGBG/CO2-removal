@@ -114,6 +114,8 @@ Script: `scripts/afforestation/download_zenodo_pilli_afforestation.py`
   (years 2010–2012, ~1.2 GB/year, ~3.6 GB total)
 - **Unit**: gC m⁻² day⁻¹ | Resolution: 0.5° global
 - **Downloaded to**: `data/fluxcom_raw/`
+- **Archived at**: https://doi.org/10.5281/zenodo.20798849 (CC-BY 4.0; not included in this
+  git repository — too large for GitHub, see [Reproducibility note](#reproducibility-note))
 
 Three years (2010–2012) are used to construct a stable climatological seasonal cycle.
 The ERA5-forced ensemble was selected for consistency with the climate data used in PyPSA-Eur.
