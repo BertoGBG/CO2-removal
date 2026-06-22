@@ -1,5 +1,7 @@
 # Carbon Dioxide Removal (afforestation and perennialisation) input data for PyPSA-Eur
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20798511.svg)](https://doi.org/10.5281/zenodo.20798511)
+
 Reference: https://arxiv.org/abs/2603.25663
 
 ---
@@ -204,7 +206,6 @@ Script: `scripts/perennialisation/download_eurostat_crops.py`
 # PyPSA-Eur output files summary
 
 The following files from this package are directly read by the PyPSA-Eur workflow
-(branch [`a_CDRs`](https://github.com/BertoGBG/pypsa-eur/tree/a_CDRs)):
 
 | File | Technology | Description |
 |------|------------|-------------|
