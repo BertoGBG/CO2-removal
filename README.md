@@ -31,6 +31,7 @@ scripts/
   biomass_inputs/
     extract_enspreso_tables.py                 ← extract ENSPRESO cost, emission and heating-value tables
     fill_country_tables.py                     ← ENSPRESO database costs + fill missing countries
+    compute_unsustainable_biomass_upstream.py  ← emission factors + price used by PyPSA-Eur
   run_all.py                                   ← run full pipeline end-to-end
 
 data/
@@ -271,6 +272,33 @@ with unsustainable biomass (e.g. Italy and Portugal have large solid biofuel pro
 
 Country codes in the `*_filled.csv` files follow PyPSA-Eur (GB, GR, BA; Kosovo added as XK).
 `filled_values_log.csv` lists every filled value with its method and donor countries.
+
+## Upstream emissions and price of unsustainable biomass (used by PyPSA-Eur)
+
+`compute_unsustainable_biomass_upstream.py` writes `outputs/biomass_inputs/unsustainable_biomass_upstream.csv`:
+one row per country (PyPSA-Eur codes), columns `<quantity>_<year>`, ready to use in PyPSA-Eur's
+unsustainable biomass (Eurostat primary production phased out by 2040).
+
+| Quantity | Unit | Calculation |
+|---|---|---|
+| `bioethanol` | tCO2eq/MWh fuel | Table 20 starchy crops × feedstock input 1.965 × crop share 0.86 |
+| `biodiesel` | tCO2eq/MWh fuel | Table 20 rapeseed × feedstock input 1.215 × crop share 0.552 |
+| `solid biomass` | tCO2eq/MWh | Table 20 willow (short rotation coppice), no conversion |
+| `solid biomass price` | €2025/MWh | one EU value, repeated per country (see below) |
+
+- **Feedstock input** = Table 26 heating value / (crop-to-fuel efficiency × fuel heating value), i.e. GJ of crop per GJ
+  of fuel on the report's own heating value basis. Efficiencies from JRC Technical Report doi:10.2760/69179 (wheat
+  0.295 t/t at 13.5% moisture, moved to the 14% Eurostat standard humidity; rapeseed 0.4176 t/t); fuel heating values
+  ethanol 26.81 and biodiesel 36.7 GJ/t. All cultivation emissions are allocated to the fuel (none to co-products),
+  so the values are an upper bound.
+- **Crop share**: fuel from waste and residues has no cultivation emissions. Bioethanol: crops are 86% of EU ethanol
+  feedstock, 2020–2022 (European Commission DG AGRI, *EU agricultural outlook 2023–2035*, p. 32). Biodiesel (incl.
+  HVO, bio jet and other liquid biofuels): Eurostat SHARES 2024 (v2024.120925), sheet TRANSPORT, EU27 in 2021:
+  (food and feed crop biofuels 10,097.9 ktoe − 0.86 × biogasoline 3,031.6 ktoe) / biodiesels 13,570.6 ktoe = 0.552.
+- **Willow price**: mean of the countries with a non-zero cost in the ENSPRESO database (`ENS_BaU_GFTM`, the method
+  technology-data uses for its ENSPRESO prices), converted from €2010/GJ to €2025/MWh with the Eurostat HICP
+  (`data/biomass_inputs/eurostat_prc_hicp_aind.xlsx`, EEA, factor 1.444 as in technology-data). A single EU value, so
+  it is the same with or without spatially resolved biomass.
 
 ---
 
