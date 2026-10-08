@@ -33,22 +33,24 @@ SCRIPTS = Path(__file__).resolve().parent
 
 STEPS = [
     # (label, script_path)
-    ("1/8 – download Avitabile/Figshare afforestation data",
+    ("1/9 – download Avitabile/Figshare afforestation data",
      SCRIPTS / "afforestation" / "download_afforestation_data_avitabile.py"),
-    ("2/8 – download Pilli et al. JRC forest growth library",
+    ("2/9 – download Pilli et al. JRC forest growth library",
      SCRIPTS / "afforestation" / "download_zenodo_pilli_afforestation.py"),
-    ("3/8 – download FluxCom GPP data (2010–2012, ~3.6 GB)",
+    ("3/9 – download FluxCom GPP data (2010–2012, ~3.6 GB)",
      SCRIPTS / "afforestation" / "download_fluxcom.py"),
-    ("4/8 – compute rotation-averaged MAI per NUTS-2 (Pilli method)",
+    ("4/9 – compute rotation-averaged MAI per NUTS-2 (Pilli method)",
      SCRIPTS / "afforestation" / "01_compute_afforestation_rates_pilli.py"),
-    ("5/8 – compute monthly GPP seasonal profiles per NUTS-2",
+    ("5/9 – compute monthly GPP seasonal profiles per NUTS-2",
      SCRIPTS / "afforestation" / "02_compute_nuts2_profiles.py"),
-    ("6/8 – generate diagnostic plots",
+    ("6/9 – generate diagnostic plots",
      SCRIPTS / "afforestation" / "03_plot_check.py"),
-    ("7/8 – download Eurostat crop harvest data",
+    ("7/9 – download Eurostat crop harvest data",
      SCRIPTS / "perennialisation" / "download_eurostat_crops.py"),
-    ("8/8 – extract ENSPRESO tables (costs, emission factors, heating values) from the JRC report",
+    ("8/9 – extract ENSPRESO tables (costs, emission factors, heating values) from the JRC report",
      SCRIPTS / "biomass_inputs" / "extract_enspreso_tables.py"),
+    ("9/9 – complete the per-country cost and emission tables (neighbour filling)",
+     SCRIPTS / "biomass_inputs" / "fill_country_tables.py"),
 ]
 
 if __name__ == "__main__":

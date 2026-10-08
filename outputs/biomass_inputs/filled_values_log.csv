@@ -1,0 +1,873 @@
+table,column,country,value,method,donors
+table10_biofuel_crops,Sugar_beet_2010,CH,3.7,neighbours (round 1),AT DE FR
+table10_biofuel_crops,Sugar_beet_2010,ES,3.7,neighbours (round 1),FR
+table10_biofuel_crops,Sugar_beet_2010,FI,3.8,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2010,HU,3.7,neighbours (round 1),AT SK
+table10_biofuel_crops,Sugar_beet_2010,IE,3.8,neighbours (round 1),GB
+table10_biofuel_crops,Sugar_beet_2010,IT,3.7,neighbours (round 1),AT FR
+table10_biofuel_crops,Sugar_beet_2010,LU,3.7,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Sugar_beet_2010,LV,3.6,neighbours (round 1),LT
+table10_biofuel_crops,Sugar_beet_2010,NO,3.8,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2010,SI,3.7,neighbours (round 1),AT
+table10_biofuel_crops,Sugar_beet_2010,EE,3.6,neighbours (round 2),LV
+table10_biofuel_crops,Sugar_beet_2010,HR,3.7,neighbours (round 2),HU SI
+table10_biofuel_crops,Sugar_beet_2010,PT,3.7,neighbours (round 2),ES
+table10_biofuel_crops,Sugar_beet_2010,RO,3.7,neighbours (round 2),HU
+table10_biofuel_crops,Sugar_beet_2010,RS,3.7,neighbours (round 2),HU
+table10_biofuel_crops,Sugar_beet_2010,BA,3.7,neighbours (round 3),HR RS
+table10_biofuel_crops,Sugar_beet_2010,BG,3.7,neighbours (round 3),RO RS
+table10_biofuel_crops,Sugar_beet_2010,ME,3.7,neighbours (round 3),HR RS
+table10_biofuel_crops,Sugar_beet_2010,MK,3.7,neighbours (round 3),RS
+table10_biofuel_crops,Sugar_beet_2010,XK,3.7,neighbours (round 3),RS
+table10_biofuel_crops,Sugar_beet_2010,AL,3.7,neighbours (round 4),ME MK XK
+table10_biofuel_crops,Sugar_beet_2010,GR,3.7,neighbours (round 4),BG MK
+table10_biofuel_crops,Sugar_beet_2010,CY,3.7,2 nearest countries,GR BG
+table10_biofuel_crops,Sugar_beet_2010,IS,3.8,2 nearest countries,IE NO
+table10_biofuel_crops,Sugar_beet_2010,MT,3.7,2 nearest countries,AL IT
+table10_biofuel_crops,Sugar_beet_2030,AL,4.0,neighbours (round 1),GR
+table10_biofuel_crops,Sugar_beet_2030,CH,4.025,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Sugar_beet_2030,FI,4.1,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2030,HR,3.9,neighbours (round 1),HU
+table10_biofuel_crops,Sugar_beet_2030,IE,4.1,neighbours (round 1),GB
+table10_biofuel_crops,Sugar_beet_2030,LU,4.0,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Sugar_beet_2030,LV,3.9,neighbours (round 1),LT
+table10_biofuel_crops,Sugar_beet_2030,MK,3.95,neighbours (round 1),BG GR
+table10_biofuel_crops,Sugar_beet_2030,NO,4.1,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2030,RS,3.9,neighbours (round 1),BG HU RO
+table10_biofuel_crops,Sugar_beet_2030,SI,4.0,neighbours (round 1),AT HU IT
+table10_biofuel_crops,Sugar_beet_2030,BA,3.9,neighbours (round 2),HR RS
+table10_biofuel_crops,Sugar_beet_2030,EE,3.9,neighbours (round 2),LV
+table10_biofuel_crops,Sugar_beet_2030,ME,3.9333,neighbours (round 2),AL HR RS
+table10_biofuel_crops,Sugar_beet_2030,XK,3.95,neighbours (round 2),RS AL MK
+table10_biofuel_crops,Sugar_beet_2030,CY,3.95,2 nearest countries,GR BG
+table10_biofuel_crops,Sugar_beet_2030,IS,4.1,2 nearest countries,IE NO
+table10_biofuel_crops,Sugar_beet_2030,MT,4.05,2 nearest countries,AL IT
+table10_biofuel_crops,Sugar_beet_2050,AL,4.0,neighbours (round 1),GR
+table10_biofuel_crops,Sugar_beet_2050,CH,4.1,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Sugar_beet_2050,FI,4.1,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2050,HR,4.0,neighbours (round 1),HU
+table10_biofuel_crops,Sugar_beet_2050,IE,4.1,neighbours (round 1),GB
+table10_biofuel_crops,Sugar_beet_2050,LU,4.1,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Sugar_beet_2050,LV,4.0,neighbours (round 1),LT
+table10_biofuel_crops,Sugar_beet_2050,MK,4.0,neighbours (round 1),BG GR
+table10_biofuel_crops,Sugar_beet_2050,NO,4.1,neighbours (round 1),SE
+table10_biofuel_crops,Sugar_beet_2050,RS,4.0,neighbours (round 1),BG HU RO
+table10_biofuel_crops,Sugar_beet_2050,SI,4.0667,neighbours (round 1),AT HU IT
+table10_biofuel_crops,Sugar_beet_2050,BA,4.0,neighbours (round 2),HR RS
+table10_biofuel_crops,Sugar_beet_2050,EE,4.0,neighbours (round 2),LV
+table10_biofuel_crops,Sugar_beet_2050,ME,4.0,neighbours (round 2),AL HR RS
+table10_biofuel_crops,Sugar_beet_2050,XK,4.0,neighbours (round 2),RS AL MK
+table10_biofuel_crops,Sugar_beet_2050,CY,4.0,2 nearest countries,GR BG
+table10_biofuel_crops,Sugar_beet_2050,IS,4.1,2 nearest countries,IE NO
+table10_biofuel_crops,Sugar_beet_2050,MT,4.05,2 nearest countries,AL IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,AL,20.6,neighbours (round 1),GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,CH,20.325,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,FI,20.7,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,HR,19.9,neighbours (round 1),HU
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,IE,20.6,neighbours (round 1),GB
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,LU,20.5333,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,LV,18.6,neighbours (round 1),LT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,MK,18.2,neighbours (round 1),BG GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,NO,20.7,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,RS,17.9,neighbours (round 1),BG HU RO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,SI,20.0667,neighbours (round 1),AT HU IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,BA,18.9,neighbours (round 2),HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,EE,18.6,neighbours (round 2),LV
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,ME,19.4667,neighbours (round 2),AL HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,XK,18.9,neighbours (round 2),RS AL MK
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,CY,18.2,2 nearest countries,GR BG
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,IS,20.65,2 nearest countries,IE NO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2010,MT,20.2,2 nearest countries,AL IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,AL,33.4,neighbours (round 1),GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,CH,33.575,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,FI,33.9,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,HR,31.5,neighbours (round 1),HU
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,IE,33.8,neighbours (round 1),GB
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,LU,33.6333,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,LV,31.3,neighbours (round 1),LT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,MK,29.8,neighbours (round 1),BG GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,NO,33.9,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,RS,28.3667,neighbours (round 1),BG HU RO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,SI,32.8667,neighbours (round 1),AT HU IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,BA,29.9333,neighbours (round 2),HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,EE,31.3,neighbours (round 2),LV
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,ME,31.0889,neighbours (round 2),AL HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,XK,30.5222,neighbours (round 2),RS AL MK
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,CY,29.8,2 nearest countries,GR BG
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,IS,33.85,2 nearest countries,IE NO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2030,MT,33.5,2 nearest countries,AL IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,AL,33.2,neighbours (round 1),GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,CH,33.575,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,FI,33.8,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,HR,31.3,neighbours (round 1),HU
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,IE,33.7,neighbours (round 1),GB
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,LU,33.5667,neighbours (round 1),BE DE FR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,LV,30.6,neighbours (round 1),LT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,MK,29.65,neighbours (round 1),BG GR
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,NO,33.8,neighbours (round 1),SE
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,RS,28.4333,neighbours (round 1),BG HU RO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,SI,32.8333,neighbours (round 1),AT HU IT
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,BA,29.8667,neighbours (round 2),HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,EE,30.6,neighbours (round 2),LV
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,ME,30.9778,neighbours (round 2),AL HR RS
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,XK,30.4278,neighbours (round 2),RS AL MK
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,CY,29.65,2 nearest countries,GR BG
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,IS,33.75,2 nearest countries,IE NO
+table10_biofuel_crops,Oil_crops_rapeseed_sunflower_soya_2050,MT,33.4,2 nearest countries,AL IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,AL,19.4,neighbours (round 1),GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,BA,13.3,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,CH,14.2,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,ME,13.3,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,MK,15.4,neighbours (round 1),BG GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,NO,12.9,neighbours (round 1),FI SE
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,PT,14.2,neighbours (round 1),ES
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,RS,13.325,neighbours (round 1),BG HR HU RO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,SI,13.675,neighbours (round 1),AT HR HU IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,XK,15.3562,neighbours (round 2),RS ME AL MK
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,CY,15.4,2 nearest countries,GR BG
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,IS,11.95,2 nearest countries,IE NO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2010,MT,18.3,2 nearest countries,AL IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,AL,28.8,neighbours (round 1),GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,BA,13.4,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,CH,20.85,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,ME,13.4,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,MK,23.05,neighbours (round 1),BG GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,NO,18.4,neighbours (round 1),FI SE
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,RS,18.425,neighbours (round 1),BG HR HU RO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,XK,20.9188,neighbours (round 2),RS ME AL MK
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,CY,23.05,2 nearest countries,GR BG
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,IS,17.55,2 nearest countries,IE NO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2030,MT,27.0,2 nearest countries,AL IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,AL,31.0,neighbours (round 1),GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,BA,14.0,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,CH,21.825,neighbours (round 1),AT DE FR IT
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,ME,14.0,neighbours (round 1),HR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,MK,24.45,neighbours (round 1),BG GR
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,NO,19.45,neighbours (round 1),FI SE
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,RS,19.325,neighbours (round 1),BG HR HU RO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,XK,22.1938,neighbours (round 2),RS ME AL MK
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,CY,24.45,2 nearest countries,GR BG
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,IS,18.725,2 nearest countries,IE NO
+table10_biofuel_crops,Starchy_crops_barley_wheat_maize_oats_rye_2050,MT,29.3,2 nearest countries,AL IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,CH,6.0,neighbours (round 1),AT DE FR IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,HR,3.44,neighbours (round 1),HU ME RS SI BA
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,LU,5.7667,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,XK,3.45,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,IS,5.45,2 nearest countries,IE NO
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,MT,5.25,2 nearest countries,AL IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,CH,5.625,neighbours (round 1),AT DE FR IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,HR,2.98,neighbours (round 1),HU ME RS SI BA
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,LU,5.1333,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,XK,3.1,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,IS,5.95,2 nearest countries,IE NO
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,MT,5.15,2 nearest countries,AL IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,CH,5.575,neighbours (round 1),AT DE FR IT
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,DK,6.2,neighbours (round 1),DE SE
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,HR,3.5,neighbours (round 1),HU ME RS SI BA
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,LU,5.2,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,XK,3.775,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,IS,6.25,2 nearest countries,IE NO
+table11_dedicated_perennials,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,MT,5.4,2 nearest countries,AL IT
+table11_dedicated_perennials,Willow_2020,CH,10.7333,neighbours (round 1),AT DE FR
+table11_dedicated_perennials,Willow_2020,ES,10.6,neighbours (round 1),FR
+table11_dedicated_perennials,Willow_2020,GR,7.6,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2020,HR,7.5,neighbours (round 1),HU
+table11_dedicated_perennials,Willow_2020,IT,10.2,neighbours (round 1),AT FR
+table11_dedicated_perennials,Willow_2020,LU,10.7,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Willow_2020,MK,7.6,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2020,NO,13.75,neighbours (round 1),FI SE
+table11_dedicated_perennials,Willow_2020,RS,7.3,neighbours (round 1),BG HU RO
+table11_dedicated_perennials,Willow_2020,SI,8.65,neighbours (round 1),AT HU
+table11_dedicated_perennials,Willow_2020,AL,7.6,neighbours (round 2),GR MK
+table11_dedicated_perennials,Willow_2020,BA,7.4,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2020,ME,7.4,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2020,PT,10.6,neighbours (round 2),ES
+table11_dedicated_perennials,Willow_2020,XK,7.45,neighbours (round 2),RS MK
+table11_dedicated_perennials,Willow_2020,CY,7.6,2 nearest countries,GR BG
+table11_dedicated_perennials,Willow_2020,IS,11.825,2 nearest countries,IE NO
+table11_dedicated_perennials,Willow_2020,MT,8.9,2 nearest countries,AL IT
+table11_dedicated_perennials,Willow_2030,CH,9.5667,neighbours (round 1),AT DE FR
+table11_dedicated_perennials,Willow_2030,ES,9.1,neighbours (round 1),FR
+table11_dedicated_perennials,Willow_2030,GR,8.1,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2030,HR,7.2,neighbours (round 1),HU
+table11_dedicated_perennials,Willow_2030,IT,9.2,neighbours (round 1),AT FR
+table11_dedicated_perennials,Willow_2030,LU,9.2333,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Willow_2030,MK,8.1,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2030,RS,7.2667,neighbours (round 1),BG HU RO
+table11_dedicated_perennials,Willow_2030,SI,8.25,neighbours (round 1),AT HU
+table11_dedicated_perennials,Willow_2030,AL,8.1,neighbours (round 2),GR MK
+table11_dedicated_perennials,Willow_2030,BA,7.2333,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2030,ME,7.2333,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2030,PT,9.1,neighbours (round 2),ES
+table11_dedicated_perennials,Willow_2030,XK,7.6833,neighbours (round 2),RS MK
+table11_dedicated_perennials,Willow_2030,CY,8.1,2 nearest countries,GR BG
+table11_dedicated_perennials,Willow_2030,IS,10.85,2 nearest countries,IE NO
+table11_dedicated_perennials,Willow_2030,MT,8.65,2 nearest countries,AL IT
+table11_dedicated_perennials,Willow_2050,CH,9.8333,neighbours (round 1),AT DE FR
+table11_dedicated_perennials,Willow_2050,DK,11.6,neighbours (round 1),DE SE
+table11_dedicated_perennials,Willow_2050,ES,8.8,neighbours (round 1),FR
+table11_dedicated_perennials,Willow_2050,GR,7.5,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2050,HR,7.0,neighbours (round 1),HU
+table11_dedicated_perennials,Willow_2050,IT,9.75,neighbours (round 1),AT FR
+table11_dedicated_perennials,Willow_2050,LU,9.8,neighbours (round 1),BE DE FR
+table11_dedicated_perennials,Willow_2050,MK,7.5,neighbours (round 1),BG
+table11_dedicated_perennials,Willow_2050,RS,7.1667,neighbours (round 1),BG HU RO
+table11_dedicated_perennials,Willow_2050,SI,8.85,neighbours (round 1),AT HU
+table11_dedicated_perennials,Willow_2050,AL,7.5,neighbours (round 2),GR MK
+table11_dedicated_perennials,Willow_2050,BA,7.0833,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2050,ME,7.0833,neighbours (round 2),HR RS
+table11_dedicated_perennials,Willow_2050,PT,8.8,neighbours (round 2),ES
+table11_dedicated_perennials,Willow_2050,XK,7.3333,neighbours (round 2),RS MK
+table11_dedicated_perennials,Willow_2050,CY,7.5,2 nearest countries,GR BG
+table11_dedicated_perennials,Willow_2050,IS,11.9,2 nearest countries,IE NO
+table11_dedicated_perennials,Willow_2050,MT,8.625,2 nearest countries,AL IT
+table11_dedicated_perennials,Poplar_2020,AT,14.25,neighbours (round 1),IT SI
+table11_dedicated_perennials,Poplar_2020,BE,13.2,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2020,BG,11.7,neighbours (round 1),GR MK RS
+table11_dedicated_perennials,Poplar_2020,CH,15.75,neighbours (round 1),FR IT
+table11_dedicated_perennials,Poplar_2020,DE,13.2,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2020,HR,9.375,neighbours (round 1),ME RS SI BA
+table11_dedicated_perennials,Poplar_2020,HU,9.65,neighbours (round 1),RS SI
+table11_dedicated_perennials,Poplar_2020,LU,13.2,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2020,RO,9.1,neighbours (round 1),RS
+table11_dedicated_perennials,Poplar_2020,XK,8.8,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Poplar_2020,CZ,13.725,neighbours (round 2),AT DE
+table11_dedicated_perennials,Poplar_2020,DK,13.2,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2020,NL,13.2,neighbours (round 2),BE DE
+table11_dedicated_perennials,Poplar_2020,PL,13.2,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2020,SK,11.95,neighbours (round 2),AT HU
+table11_dedicated_perennials,Poplar_2020,LT,13.2,neighbours (round 3),PL
+table11_dedicated_perennials,Poplar_2020,SE,13.2,neighbours (round 3),DK
+table11_dedicated_perennials,Poplar_2020,FI,13.2,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2020,LV,13.2,neighbours (round 4),LT
+table11_dedicated_perennials,Poplar_2020,NO,13.2,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2020,EE,13.2,neighbours (round 5),LV
+table11_dedicated_perennials,Poplar_2020,GB,13.2,2 nearest countries,NL BE
+table11_dedicated_perennials,Poplar_2020,IE,13.2,2 nearest countries,GB BE
+table11_dedicated_perennials,Poplar_2020,IS,13.2,2 nearest countries,IE NO
+table11_dedicated_perennials,Poplar_2020,MT,13.1,2 nearest countries,AL IT
+table11_dedicated_perennials,Poplar_2030,AT,13.55,neighbours (round 1),IT SI
+table11_dedicated_perennials,Poplar_2030,BE,11.5,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2030,BG,10.9,neighbours (round 1),GR MK RS
+table11_dedicated_perennials,Poplar_2030,CH,14.85,neighbours (round 1),FR IT
+table11_dedicated_perennials,Poplar_2030,DE,11.5,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2030,HR,8.15,neighbours (round 1),ME RS SI BA
+table11_dedicated_perennials,Poplar_2030,HU,8.2,neighbours (round 1),RS SI
+table11_dedicated_perennials,Poplar_2030,LU,11.5,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2030,RO,7.5,neighbours (round 1),RS
+table11_dedicated_perennials,Poplar_2030,XK,8.1,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Poplar_2030,CZ,12.525,neighbours (round 2),AT DE
+table11_dedicated_perennials,Poplar_2030,DK,11.5,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2030,NL,11.5,neighbours (round 2),BE DE
+table11_dedicated_perennials,Poplar_2030,PL,11.5,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2030,SK,10.875,neighbours (round 2),AT HU
+table11_dedicated_perennials,Poplar_2030,LT,11.5,neighbours (round 3),PL
+table11_dedicated_perennials,Poplar_2030,SE,11.5,neighbours (round 3),DK
+table11_dedicated_perennials,Poplar_2030,FI,11.5,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2030,LV,11.5,neighbours (round 4),LT
+table11_dedicated_perennials,Poplar_2030,NO,11.5,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2030,EE,11.5,neighbours (round 5),LV
+table11_dedicated_perennials,Poplar_2030,GB,11.5,2 nearest countries,NL BE
+table11_dedicated_perennials,Poplar_2030,IE,11.5,2 nearest countries,GB BE
+table11_dedicated_perennials,Poplar_2030,IS,11.5,2 nearest countries,IE NO
+table11_dedicated_perennials,Poplar_2030,MT,12.85,2 nearest countries,AL IT
+table11_dedicated_perennials,Poplar_2050,AT,13.2,neighbours (round 1),IT SI
+table11_dedicated_perennials,Poplar_2050,BE,11.1,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2050,BG,11.9,neighbours (round 1),GR MK RS
+table11_dedicated_perennials,Poplar_2050,CH,14.4,neighbours (round 1),FR IT
+table11_dedicated_perennials,Poplar_2050,DE,11.1,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2050,HR,9.75,neighbours (round 1),ME RS SI BA
+table11_dedicated_perennials,Poplar_2050,HU,9.4,neighbours (round 1),RS SI
+table11_dedicated_perennials,Poplar_2050,LU,11.1,neighbours (round 1),FR
+table11_dedicated_perennials,Poplar_2050,RO,10.1,neighbours (round 1),RS
+table11_dedicated_perennials,Poplar_2050,XK,9.8,neighbours (round 1),RS ME AL MK
+table11_dedicated_perennials,Poplar_2050,CZ,12.15,neighbours (round 2),AT DE
+table11_dedicated_perennials,Poplar_2050,DK,11.1,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2050,NL,11.1,neighbours (round 2),BE DE
+table11_dedicated_perennials,Poplar_2050,PL,11.1,neighbours (round 2),DE
+table11_dedicated_perennials,Poplar_2050,SK,11.3,neighbours (round 2),AT HU
+table11_dedicated_perennials,Poplar_2050,LT,11.1,neighbours (round 3),PL
+table11_dedicated_perennials,Poplar_2050,SE,11.1,neighbours (round 3),DK
+table11_dedicated_perennials,Poplar_2050,FI,11.1,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2050,LV,11.1,neighbours (round 4),LT
+table11_dedicated_perennials,Poplar_2050,NO,11.1,neighbours (round 4),SE
+table11_dedicated_perennials,Poplar_2050,EE,11.1,neighbours (round 5),LV
+table11_dedicated_perennials,Poplar_2050,GB,11.1,2 nearest countries,NL BE
+table11_dedicated_perennials,Poplar_2050,IE,11.1,2 nearest countries,GB BE
+table11_dedicated_perennials,Poplar_2050,IS,11.1,2 nearest countries,IE NO
+table11_dedicated_perennials,Poplar_2050,MT,13.3,2 nearest countries,AL IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,CH,21.7,neighbours (round 1),AT DE FR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,ES,25.9,neighbours (round 1),FR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,FI,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,HU,16.4,neighbours (round 1),AT SK
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,IE,28.8,neighbours (round 1),GB
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,IT,21.4,neighbours (round 1),AT FR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,LV,18.3,neighbours (round 1),LT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,NO,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,SI,16.9,neighbours (round 1),AT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,EE,18.3,neighbours (round 2),LV
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,HR,16.65,neighbours (round 2),HU SI
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,PT,25.9,neighbours (round 2),ES
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,RO,16.4,neighbours (round 2),HU
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,RS,16.4,neighbours (round 2),HU
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,BA,16.525,neighbours (round 3),HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,BG,16.4,neighbours (round 3),RO RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,ME,16.525,neighbours (round 3),HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,MK,16.4,neighbours (round 3),RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,XK,16.4,neighbours (round 3),RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,AL,16.4417,neighbours (round 4),ME MK XK
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,GR,16.4,neighbours (round 4),BG MK
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,CY,16.4,2 nearest countries,GR BG
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,IS,14.45,2 nearest countries,IE NO
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2010,MT,18.9208,2 nearest countries,AL IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,AL,27.5,neighbours (round 1),GR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,CH,22.125,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,FI,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,HR,26.1,neighbours (round 1),HU
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,IE,28.8,neighbours (round 1),GB
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,LV,18.3,neighbours (round 1),LT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,MK,25.2,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,NO,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,RS,27.6667,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,SI,22.1333,neighbours (round 1),AT HU IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,BA,26.8833,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,EE,18.3,neighbours (round 2),LV
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,ME,27.0889,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,XK,26.7889,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,CY,25.2,2 nearest countries,GR BG
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,IS,14.45,2 nearest countries,IE NO
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2030,MT,25.45,2 nearest countries,AL IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,AL,27.5,neighbours (round 1),GR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,CH,22.125,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,FI,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,HR,26.1,neighbours (round 1),HU
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,IE,28.8,neighbours (round 1),GB
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,LV,18.3,neighbours (round 1),LT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,MK,25.2,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,NO,0.1,neighbours (round 1),SE
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,RS,27.6667,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,SI,22.1333,neighbours (round 1),AT HU IT
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,BA,26.8833,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,EE,18.3,neighbours (round 2),LV
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,ME,27.0889,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,XK,26.7889,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,CY,25.2,2 nearest countries,GR BG
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,IS,14.45,2 nearest countries,IE NO
+table20_biomass_emission_factors,Sugarbeet_bioethanol_2050,MT,25.45,2 nearest countries,AL IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,AL,51.9,neighbours (round 1),GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,BE,23.95,neighbours (round 1),FR NL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,CH,17.2,neighbours (round 1),AT FR IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,DE,21.06,neighbours (round 1),AT CZ FR NL PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,HR,32.6,neighbours (round 1),HU
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,LT,30.2,neighbours (round 1),PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,LU,22.2,neighbours (round 1),FR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,MK,33.9,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,RS,18.4,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,SI,20.6667,neighbours (round 1),AT HU IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,BA,25.5,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,DK,21.06,neighbours (round 2),DE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,LV,30.2,neighbours (round 2),LT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,ME,34.3,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,XK,34.7333,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,EE,30.2,neighbours (round 3),LV
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,SE,21.06,neighbours (round 3),DK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,FI,21.06,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,NO,21.06,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,CY,33.9,2 nearest countries,GR BG
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,GB,24.825,2 nearest countries,NL BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,IE,24.3875,2 nearest countries,GB BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,IS,22.7238,2 nearest countries,IE NO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2010,MT,33.65,2 nearest countries,AL IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,AL,39.1,neighbours (round 1),GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,BE,22.85,neighbours (round 1),FR NL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,CH,17.5,neighbours (round 1),AT FR IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,DE,16.84,neighbours (round 1),AT CZ FR NL PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,HR,28.2,neighbours (round 1),HU
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,LT,19.1,neighbours (round 1),PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,LU,20.0,neighbours (round 1),FR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,MK,27.15,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,RS,16.8667,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,SI,20.2333,neighbours (round 1),AT HU IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,BA,22.5333,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,DK,16.84,neighbours (round 2),DE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,LV,19.1,neighbours (round 2),LT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,ME,28.0556,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,XK,27.7056,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,EE,19.1,neighbours (round 3),LV
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,SE,16.84,neighbours (round 3),DK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,FI,16.84,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,NO,16.84,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,CY,27.15,2 nearest countries,GR BG
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,GB,24.275,2 nearest countries,NL BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,IE,23.5625,2 nearest countries,GB BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,IS,20.2012,2 nearest countries,IE NO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2030,MT,28.85,2 nearest countries,AL IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,AL,26.2,neighbours (round 1),GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,BE,24.95,neighbours (round 1),FR NL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,CH,19.6,neighbours (round 1),AT FR IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,DE,18.24,neighbours (round 1),AT CZ FR NL PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,HR,29.4,neighbours (round 1),HU
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,LT,16.0,neighbours (round 1),PL
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,LU,24.2,neighbours (round 1),FR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,MK,20.8,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,RS,16.9333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,SI,21.3333,neighbours (round 1),AT HU IT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,BA,23.1667,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,DK,18.24,neighbours (round 2),DE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,LV,16.0,neighbours (round 2),LT
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,ME,24.1778,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,XK,21.3111,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,EE,16.0,neighbours (round 3),LV
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,SE,18.24,neighbours (round 3),DK
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,FI,18.24,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,NO,18.24,neighbours (round 4),SE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,CY,20.8,2 nearest countries,GR BG
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,GB,25.325,2 nearest countries,NL BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,IE,25.1375,2 nearest countries,GB BE
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,IS,21.6888,2 nearest countries,IE NO
+table20_biomass_emission_factors,Oil_crops_other_than_rapeseed_sunflower_soya_2050,MT,21.95,2 nearest countries,AL IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,AL,39.0,neighbours (round 1),GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,CH,26.425,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,ES,26.3,neighbours (round 1),FR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,HR,42.5,neighbours (round 1),HU SI
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,MK,20.25,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,NO,60.45,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,RS,24.5333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,BA,33.5167,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,ME,35.3444,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,PT,26.3,neighbours (round 2),ES
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,XK,27.9278,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,CY,20.25,2 nearest countries,GR BG
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,IS,46.825,2 nearest countries,IE NO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2010,MT,39.0,2 nearest countries,AL IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,AL,39.0,neighbours (round 1),GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,CH,26.425,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,HR,42.5,neighbours (round 1),HU SI
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,MK,20.25,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,NO,60.45,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,RS,24.5333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,BA,33.5167,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,ME,35.3444,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,XK,27.9278,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,CY,20.25,2 nearest countries,GR BG
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,IS,46.825,2 nearest countries,IE NO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2030,MT,39.0,2 nearest countries,AL IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,AL,39.0,neighbours (round 1),GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,CH,26.425,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,HR,42.5,neighbours (round 1),HU SI
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,MK,20.25,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,NO,60.45,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,RS,24.5333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,BA,33.5167,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,ME,35.3444,neighbours (round 2),AL HR RS
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,XK,27.9278,neighbours (round 2),RS AL MK
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,CY,20.25,2 nearest countries,GR BG
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,IS,46.825,2 nearest countries,IE NO
+table20_biomass_emission_factors,Rapeseed_biodiesel_2050,MT,39.0,2 nearest countries,AL IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,AL,16.1,neighbours (round 1),GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,BA,11.6,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,CH,15.15,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,ME,11.6,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,MK,13.0,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,NO,30.55,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,PT,14.3,neighbours (round 1),ES
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,RS,12.975,neighbours (round 1),BG HR HU RO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,SI,15.05,neighbours (round 1),AT HR HU IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,XK,13.4188,neighbours (round 2),RS ME AL MK
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,CY,13.0,2 nearest countries,GR BG
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,IS,22.125,2 nearest countries,IE NO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2010,MT,16.1,2 nearest countries,AL IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,AL,17.2,neighbours (round 1),GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,BA,11.5,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,CH,12.825,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,ME,11.5,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,MK,13.15,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,NO,27.25,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,RS,12.85,neighbours (round 1),BG HR HU RO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,XK,13.675,neighbours (round 2),RS ME AL MK
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,CY,13.15,2 nearest countries,GR BG
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,IS,18.725,2 nearest countries,IE NO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2030,MT,16.2,2 nearest countries,AL IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,AL,16.3,neighbours (round 1),GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,BA,11.5,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,CH,12.6,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,ME,11.5,neighbours (round 1),HR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,MK,12.75,neighbours (round 1),BG GR
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,NO,28.7,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,RS,12.875,neighbours (round 1),BG HR HU RO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,XK,13.3562,neighbours (round 2),RS ME AL MK
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,CY,12.75,2 nearest countries,GR BG
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,IS,19.25,2 nearest countries,IE NO
+table20_biomass_emission_factors,Starchy_crops_barley_wheat_maize_oats_rye_2050,MT,16.3,2 nearest countries,AL IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,CH,21.5,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,HR,20.42,neighbours (round 1),HU ME RS SI BA
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,LU,21.4667,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,NO,35.9,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,XK,14.5,neighbours (round 1),RS ME AL MK
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,IS,48.55,2 nearest countries,IE NO
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2020,MT,17.65,2 nearest countries,AL IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,CH,21.5,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,HR,20.42,neighbours (round 1),HU ME RS SI BA
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,LU,21.5,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,NO,35.95,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,XK,14.4,neighbours (round 1),RS ME AL MK
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,IS,48.575,2 nearest countries,IE NO
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2030,MT,17.6,2 nearest countries,AL IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,CH,21.45,neighbours (round 1),AT DE FR IT
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,HR,20.52,neighbours (round 1),HU ME RS SI BA
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,LU,21.5,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,NO,36.2,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,XK,14.1,neighbours (round 1),RS ME AL MK
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,IS,48.7,2 nearest countries,IE NO
+table20_biomass_emission_factors,Dedicated_perennials_miscanthus_switchgrass_RCG_2050,MT,17.4,2 nearest countries,AL IT
+table20_biomass_emission_factors,Willow_2020,CH,17.9,neighbours (round 1),AT DE FR
+table20_biomass_emission_factors,Willow_2020,GR,15.5,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2020,HR,46.8,neighbours (round 1),HU
+table20_biomass_emission_factors,Willow_2020,IT,15.0,neighbours (round 1),AT FR
+table20_biomass_emission_factors,Willow_2020,LU,18.3667,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Willow_2020,MK,15.5,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2020,NO,20.05,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Willow_2020,PT,16.8,neighbours (round 1),ES
+table20_biomass_emission_factors,Willow_2020,RS,26.3,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Willow_2020,SI,30.9,neighbours (round 1),AT HU
+table20_biomass_emission_factors,Willow_2020,AL,15.5,neighbours (round 2),GR MK
+table20_biomass_emission_factors,Willow_2020,BA,36.55,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2020,ME,36.55,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2020,XK,20.9,neighbours (round 2),RS MK
+table20_biomass_emission_factors,Willow_2020,CY,15.5,2 nearest countries,GR BG
+table20_biomass_emission_factors,Willow_2020,IS,22.325,2 nearest countries,IE NO
+table20_biomass_emission_factors,Willow_2020,MT,15.25,2 nearest countries,AL IT
+table20_biomass_emission_factors,Willow_2030,CH,17.9333,neighbours (round 1),AT DE FR
+table20_biomass_emission_factors,Willow_2030,GR,15.6,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2030,HR,48.0,neighbours (round 1),HU
+table20_biomass_emission_factors,Willow_2030,IT,15.1,neighbours (round 1),AT FR
+table20_biomass_emission_factors,Willow_2030,LU,18.4,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Willow_2030,MK,15.6,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2030,NO,20.15,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Willow_2030,PT,16.8,neighbours (round 1),ES
+table20_biomass_emission_factors,Willow_2030,RS,26.7333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Willow_2030,SI,31.5,neighbours (round 1),AT HU
+table20_biomass_emission_factors,Willow_2030,AL,15.6,neighbours (round 2),GR MK
+table20_biomass_emission_factors,Willow_2030,BA,37.3667,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2030,ME,37.3667,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2030,XK,21.1667,neighbours (round 2),RS MK
+table20_biomass_emission_factors,Willow_2030,CY,15.6,2 nearest countries,GR BG
+table20_biomass_emission_factors,Willow_2030,IS,22.375,2 nearest countries,IE NO
+table20_biomass_emission_factors,Willow_2030,MT,15.35,2 nearest countries,AL IT
+table20_biomass_emission_factors,Willow_2050,CH,17.9333,neighbours (round 1),AT DE FR
+table20_biomass_emission_factors,Willow_2050,GR,15.6,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2050,HR,52.3,neighbours (round 1),HU
+table20_biomass_emission_factors,Willow_2050,IT,15.05,neighbours (round 1),AT FR
+table20_biomass_emission_factors,Willow_2050,LU,18.4333,neighbours (round 1),BE DE FR
+table20_biomass_emission_factors,Willow_2050,MK,15.6,neighbours (round 1),BG
+table20_biomass_emission_factors,Willow_2050,NO,20.15,neighbours (round 1),FI SE
+table20_biomass_emission_factors,Willow_2050,PT,16.8,neighbours (round 1),ES
+table20_biomass_emission_factors,Willow_2050,RS,28.1333,neighbours (round 1),BG HU RO
+table20_biomass_emission_factors,Willow_2050,SI,33.6,neighbours (round 1),AT HU
+table20_biomass_emission_factors,Willow_2050,AL,15.6,neighbours (round 2),GR MK
+table20_biomass_emission_factors,Willow_2050,BA,40.2167,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2050,ME,40.2167,neighbours (round 2),HR RS
+table20_biomass_emission_factors,Willow_2050,XK,21.8667,neighbours (round 2),RS MK
+table20_biomass_emission_factors,Willow_2050,CY,15.6,2 nearest countries,GR BG
+table20_biomass_emission_factors,Willow_2050,IS,22.275,2 nearest countries,IE NO
+table20_biomass_emission_factors,Willow_2050,MT,15.325,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2010,CH,14.1924,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2010,ME,14.6496,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2010,XK,14.8606,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2010,IS,16.6156,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2020,CH,15.3551,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2020,ME,14.6001,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2020,XK,14.3264,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2020,IS,16.7329,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2030,CH,20.832,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2030,ME,15.3815,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2030,XK,15.8804,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2030,IS,19.6878,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2040,CH,21.2941,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2040,ME,17.5815,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2040,XK,18.6675,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2040,IS,21.5928,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2050,CH,21.8267,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2050,ME,19.7815,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2050,XK,21.4545,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Bioethanol_barley_wheat_grain_maize_oats_other_cereals_rye_2050,IS,23.5065,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2010,XK,1.8783,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2010,CY,4.3944,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2010,IS,4.602,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2020,XK,1.7303,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2020,CY,4.0729,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2020,IS,4.2729,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2030,XK,1.5573,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2030,CY,3.6971,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2030,IS,3.8884,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2040,XK,1.4015,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2040,CY,3.3589,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2040,IS,3.5423,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2050,XK,1.2614,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2050,CY,3.0545,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,FuelwoodRW_2050,IS,3.2308,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2010,CH,5.9822,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2010,HR,3.4377,neighbours (round 1),HU ME RS SI BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2010,XK,3.4458,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2010,IS,5.4643,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2010,MT,5.2488,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2020,CH,5.9822,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2020,HR,3.4377,neighbours (round 1),HU ME RS SI BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2020,XK,3.4458,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2020,IS,5.4643,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2020,MT,5.2488,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2030,CH,5.6174,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2030,XK,3.1016,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2030,IS,5.9325,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2030,MT,5.1433,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2040,CH,5.6173,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2040,XK,3.5395,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2040,IS,6.2477,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2040,MT,5.3619,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2050,CH,5.5727,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2050,DK,6.1953,neighbours (round 1),DE SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2050,XK,3.7802,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2050,IS,6.2537,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Miscanthus_switchgrass_RCG_2050,MT,5.3721,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,AT,14.2438,neighbours (round 1),IT SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,BE,13.1571,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,BG,11.6926,neighbours (round 1),GR MK RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,CH,15.7076,neighbours (round 1),FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,DE,13.1571,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,HR,9.3689,neighbours (round 1),ME RS SI BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,HU,9.6555,neighbours (round 1),RS SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,LU,13.1571,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,RO,9.0816,neighbours (round 1),RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,XK,8.7903,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,CZ,13.7004,neighbours (round 2),AT DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,DK,13.1571,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,NL,13.1571,neighbours (round 2),BE DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,PL,13.1571,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,SK,11.9496,neighbours (round 2),AT HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,LT,13.1571,neighbours (round 3),PL
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,SE,13.1571,neighbours (round 3),DK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,FI,13.1571,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,LV,13.1571,neighbours (round 4),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,NO,13.1571,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,EE,13.1571,neighbours (round 5),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,GB,13.1571,2 nearest countries,NL BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,IE,13.1571,2 nearest countries,GB BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,IS,13.1571,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2020,MT,13.0866,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,AT,13.577,neighbours (round 1),IT SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,BE,11.4812,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,BG,10.8729,neighbours (round 1),GR MK RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,CH,14.8592,neighbours (round 1),FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,DE,11.4812,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,HU,8.1288,neighbours (round 1),HR RS SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,LU,11.4812,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,RO,7.4611,neighbours (round 1),RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,XK,8.0565,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,CZ,12.5291,neighbours (round 2),AT DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,DK,11.4812,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,NL,11.4812,neighbours (round 2),BE DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,PL,11.4812,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,SK,10.8529,neighbours (round 2),AT HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,LT,11.4812,neighbours (round 3),PL
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,SE,11.4812,neighbours (round 3),DK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,FI,11.4812,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,LV,11.4812,neighbours (round 4),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,NO,11.4812,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,EE,11.4812,neighbours (round 5),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,GB,11.4812,2 nearest countries,NL BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,IE,11.4812,2 nearest countries,GB BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,IS,11.4812,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2030,MT,12.8492,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,AT,13.4312,neighbours (round 1),IT SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,BE,11.2917,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,BG,11.4781,neighbours (round 1),GR MK RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,CH,14.6858,neighbours (round 1),FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,DE,11.2917,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,HU,8.8659,neighbours (round 1),HR RS SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,LU,11.2917,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,RO,8.6318,neighbours (round 1),RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,XK,9.2388,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,CZ,12.3615,neighbours (round 2),AT DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,DK,11.2917,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,NL,11.2917,neighbours (round 2),BE DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,PL,11.2917,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,SK,11.1485,neighbours (round 2),AT HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,LT,11.2917,neighbours (round 3),PL
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,SE,11.2917,neighbours (round 3),DK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,FI,11.2917,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,LV,11.2917,neighbours (round 4),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,NO,11.2917,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,EE,11.2917,neighbours (round 5),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,GB,11.2917,2 nearest countries,NL BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,IE,11.2917,2 nearest countries,GB BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,IS,11.2917,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2040,MT,13.3559,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,AT,13.1775,neighbours (round 1),IT SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,BE,11.1226,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,BG,11.9169,neighbours (round 1),GR MK RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,CH,14.4091,neighbours (round 1),FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,DE,11.1226,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,EE,8.9357,neighbours (round 1),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,HU,9.3972,neighbours (round 1),HR RS SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,LT,8.9357,neighbours (round 1),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,LU,11.1226,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,RO,10.0972,neighbours (round 1),RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,XK,9.8024,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,CZ,12.1501,neighbours (round 2),AT DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,DK,11.1226,neighbours (round 2),DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,NL,11.1226,neighbours (round 2),BE DE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,PL,10.0292,neighbours (round 2),DE LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,SK,11.2873,neighbours (round 2),AT HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,SE,11.1226,neighbours (round 3),DK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,FI,11.1226,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,NO,11.1226,neighbours (round 4),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,GB,11.1226,2 nearest countries,NL BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,IE,11.1226,2 nearest countries,GB BE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,IS,11.1226,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Poplar_2050,MT,13.2875,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,AL,20.5512,neighbours (round 1),GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,CH,20.3221,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,FI,20.7455,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,HR,19.4809,neighbours (round 1),HU SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,IE,20.6441,neighbours (round 1),GB
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,LU,20.5097,neighbours (round 1),BE DE FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,LV,18.6323,neighbours (round 1),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,MK,18.1981,neighbours (round 1),BG GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,NO,20.7455,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,RS,17.895,neighbours (round 1),BG HU RO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,BA,18.688,neighbours (round 2),HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,EE,18.6323,neighbours (round 2),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,ME,19.3091,neighbours (round 2),AL HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,XK,18.8815,neighbours (round 2),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,CY,18.1981,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,IS,20.6948,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2010,MT,20.2004,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,AL,23.1735,neighbours (round 1),GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,CH,23.3886,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,FI,23.6882,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,HR,22.2865,neighbours (round 1),HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,IE,23.5867,neighbours (round 1),GB
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,LU,23.4022,neighbours (round 1),BE DE FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,LV,21.6277,neighbours (round 1),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,MK,18.4742,neighbours (round 1),BG GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,NO,23.6882,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,RS,16.539,neighbours (round 1),BG HU RO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,SI,23.0434,neighbours (round 1),AT HU IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,BA,19.4127,neighbours (round 2),HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,EE,21.6277,neighbours (round 2),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,ME,20.6663,neighbours (round 2),AL HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,XK,19.3955,neighbours (round 2),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,CY,18.4742,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,IS,23.6375,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2020,MT,23.3163,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,AL,33.3521,neighbours (round 1),GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,CH,33.5786,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,FI,33.9035,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,HR,31.5318,neighbours (round 1),HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,IE,33.8021,neighbours (round 1),GB
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,LU,33.6274,neighbours (round 1),BE DE FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,LV,31.3139,neighbours (round 1),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,MK,29.7511,neighbours (round 1),BG GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,NO,33.9035,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,RS,28.3558,neighbours (round 1),BG HU RO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,SI,32.8916,neighbours (round 1),AT HU IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,BA,29.9438,neighbours (round 2),HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,EE,31.3139,neighbours (round 2),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,ME,31.0799,neighbours (round 2),AL HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,XK,30.4863,neighbours (round 2),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,CY,29.7511,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,IS,33.8528,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2030,MT,33.4854,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,AL,33.1971,neighbours (round 1),GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,CH,33.6051,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,FI,33.8608,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,HR,30.6512,neighbours (round 1),HU SI
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,IE,33.7594,neighbours (round 1),GB
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,LU,33.618,neighbours (round 1),BE DE FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,LV,30.9705,neighbours (round 1),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,MK,29.7556,neighbours (round 1),BG GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,NO,33.8608,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,RS,28.427,neighbours (round 1),BG HU RO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,BA,29.5391,neighbours (round 2),HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,EE,30.9705,neighbours (round 2),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,ME,30.7584,neighbours (round 2),AL HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,XK,30.4599,neighbours (round 2),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,CY,29.7556,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,IS,33.8101,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2040,MT,33.4206,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,AL,33.1772,neighbours (round 1),GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,CH,33.5954,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,FI,33.8181,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,HR,31.2925,neighbours (round 1),HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,IE,33.7167,neighbours (round 1),GB
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,LU,33.5872,neighbours (round 1),BE DE FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,LV,30.6271,neighbours (round 1),LT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,MK,29.661,neighbours (round 1),BG GR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,NO,33.8181,neighbours (round 1),SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,RS,28.4554,neighbours (round 1),BG HU RO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,SI,32.8461,neighbours (round 1),AT HU IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,BA,29.8739,neighbours (round 2),HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,EE,30.6271,neighbours (round 2),LV
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,ME,30.975,neighbours (round 2),AL HR RS
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,XK,30.4312,neighbours (round 2),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,CY,29.661,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,IS,33.7674,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Rape_seed_2050,MT,33.4078,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2010,CH,3.7389,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2010,ME,4.5032,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2010,XK,4.5448,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2010,IS,5.8533,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2020,CH,3.784,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2020,ME,4.5202,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2020,XK,4.471,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2020,IS,5.2373,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2030,CH,4.0365,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2030,ME,4.4034,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2030,XK,4.2997,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2030,IS,5.6036,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2040,CH,4.0617,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2040,ME,4.5716,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2040,XK,4.2993,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2040,IS,6.2707,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2050,CH,4.0868,neighbours (round 1),AT DE FR IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2050,ME,4.7398,neighbours (round 1),AL HR RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2050,XK,4.2989,neighbours (round 1),RS AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Sugar_from_sugar_beet_2050,IS,6.9377,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,ES,9.9666,neighbours (round 1),FR PT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,GR,7.3108,neighbours (round 1),AL BG MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,HR,7.4366,neighbours (round 1),HU ME RS BA
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,IT,10.474,neighbours (round 1),AT CH FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,NO,13.757,neighbours (round 1),FI SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,SI,8.6354,neighbours (round 1),AT HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,XK,7.2864,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,CY,7.4597,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,IS,11.8439,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2020,MT,8.6932,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,ES,9.1161,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,GR,7.173,neighbours (round 1),AL BG MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,IT,9.114,neighbours (round 1),AT CH FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,SI,8.0634,neighbours (round 1),AT HR HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,XK,6.693,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,PT,9.1161,neighbours (round 2),ES
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,CY,7.6531,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,IS,10.8855,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2030,MT,7.7762,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,ES,8.9607,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,GR,7.8631,neighbours (round 1),AL BG MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,IT,9.6968,neighbours (round 1),AT CH FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,SI,8.6769,neighbours (round 1),AT HR HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,XK,7.8486,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,PT,8.9607,neighbours (round 2),ES
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,CY,7.8776,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,IS,11.811,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2040,MT,8.643,2 nearest countries,AL IT
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,DK,11.5783,neighbours (round 1),DE SE
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,ES,8.8321,neighbours (round 1),FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,GR,7.8956,neighbours (round 1),AL BG MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,IT,9.8476,neighbours (round 1),AT CH FR
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,SI,8.9126,neighbours (round 1),AT HR HU
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,XK,8.2084,neighbours (round 1),RS ME AL MK
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,PT,8.8321,neighbours (round 2),ES
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,CY,7.7101,2 nearest countries,GR BG
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,IS,11.8788,2 nearest countries,IE NO
+enspreso_costs_nuts0_ENS_BaU_GFTM,Willow_2050,MT,8.8321,2 nearest countries,AL IT

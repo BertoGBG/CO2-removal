@@ -30,12 +30,13 @@ scripts/
     download_eurostat_crops.py                 ← download Eurostat crop harvest data
   biomass_inputs/
     extract_enspreso_tables.py                 ← extract ENSPRESO cost, emission and heating-value tables
+    fill_country_tables.py                     ← ENSPRESO database costs + fill missing countries
   run_all.py                                   ← run full pipeline end-to-end
 
 data/
   fluxcom_raw/      ← FluxCom daily GPP NetCDF files (2010–2012, ~3.6 GB)
   nuts/             ← NUTS-2013 and NUTS-2021 boundary GeoJSON files
-  biomass_inputs/   ← JRC ENSPRESO report (Ruiz et al. 2015), source of the biomass tables
+  biomass_inputs/   ← JRC ENSPRESO report (Ruiz et al. 2015) and ENSPRESO biomass database
   zenodo_Pilli/     ← Pilli et al. (2024) JRC forest growth library
     Volume_increment_database/     ← standing stock and NAI curves
     Volume_biomass_bcef_database/  ← BCEF lookup table
@@ -245,6 +246,31 @@ codes: `GR` for Greece, `UK` for the United Kingdom, `BH` for Bosnia and Herzego
 Table 20 covers cultivation only (MITERRA-Europe: soil N2O, soil CO2 and organic soils, fertiliser
 production, mechanisation; report p. 67). It excludes indirect land-use change and processing.
 `0.0` in Table 20 means the crop is not produced in that country, not zero emissions.
+
+## ENSPRESO database costs
+
+`data/biomass_inputs/ENSPRESO_BIOMASS.xlsx`: JRC ENSPRESO biomass database (2019 version, as archived by
+PyPSA-Eur), licensed CC BY 4.0. Source: https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/ENSPRESO/ENSPRESO_BIOMASS.xlsx.
+`scripts/biomass_inputs/fill_country_tables.py` extracts sheet `COST - NUTS0 EnergyCom`, scenario `ENS_BaU_GFTM`
+(the scenario used by technology-data for crop and fuelwood prices) for cereals, sugar beet, miscanthus/
+switchgrass/RCG, willow, poplar, rape seed and fuelwood: `enspreso_costs_nuts0_ENS_BaU_GFTM.csv` (€2010/GJ).
+Costs are in 2010 euros and need inflation adjustment before use.
+
+## Complete per-country tables (filled)
+
+The tables have gaps where a crop is not grown in a country, but PyPSA-Eur needs a value for every country
+with unsustainable biomass (e.g. Italy and Portugal have large solid biofuel production but no willow value).
+`fill_country_tables.py` therefore writes `*_filled.csv` versions of Tables 10, 11, 20 and the ENSPRESO costs:
+
+1. A value is missing when it is empty or `0`.
+2. Missing values get the mean of the land neighbours with a value (shared border within 5 km, from the NUTS
+   2021 shapes; Bosnia and Herzegovina and Kosovo, not in NUTS, have their neighbours listed in the script).
+   This is repeated, so countries surrounded by gaps are filled from the previous round.
+3. Countries still missing (islands, or groups such as GB and IE that all lack the value) get the mean of the
+   2 nearest countries with a value (centroid distance).
+
+Country codes in the `*_filled.csv` files follow PyPSA-Eur (GB, GR, BA; Kosovo added as XK).
+`filled_values_log.csv` lists every filled value with its method and donor countries.
 
 ---
 
