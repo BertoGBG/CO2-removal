@@ -28,11 +28,14 @@ scripts/
     03_plot_check.py                           ← diagnostic plots
   perennialisation/
     download_eurostat_crops.py                 ← download Eurostat crop harvest data
+  biomass_inputs/
+    extract_enspreso_tables.py                 ← extract ENSPRESO cost, emission and heating-value tables
   run_all.py                                   ← run full pipeline end-to-end
 
 data/
   fluxcom_raw/      ← FluxCom daily GPP NetCDF files (2010–2012, ~3.6 GB)
   nuts/             ← NUTS-2013 and NUTS-2021 boundary GeoJSON files
+  biomass_inputs/   ← JRC ENSPRESO report (Ruiz et al. 2015), source of the biomass tables
   zenodo_Pilli/     ← Pilli et al. (2024) JRC forest growth library
     Volume_increment_database/     ← standing stock and NAI curves
     Volume_biomass_bcef_database/  ← BCEF lookup table
@@ -41,6 +44,7 @@ data/
 outputs/
   afforestation/    ← afforestation results (both methods)
   perennialisation/ ← Eurostat crop data (input for PyPSA-Eur)
+  biomass_inputs/   ← ENSPRESO tables extracted from the JRC report (CSV)
 ```
 
 ## Quick start
@@ -207,6 +211,43 @@ Script: `scripts/perennialisation/download_eurostat_crops.py`
 
 ---
 
+# Biomass cost, emission and heating-value tables (JRC ENSPRESO)
+
+## Raw input
+
+Ruiz, P., Sgobbi, A., Nijs, W., Thiel, C., Dalla Longa, F., Kober, T., Elbersen, B., Hengeveld, G. (2015):
+*The JRC-EU-TIMES model. Bioenergy potentials for EU and neighbouring countries.* EUR 27575 EN,
+Publications Office of the European Union, doi:10.2790/39014.
+
+File: `data/biomass_inputs/Ruiz2015_JRC-EU-TIMES_bioenergy_potentials_EUR27575.pdf`.
+© European Union, 2015; reproduction is authorised provided the source is acknowledged.
+
+## Method
+
+`scripts/biomass_inputs/extract_enspreso_tables.py` reads the tables from the PDF text with
+`pdfplumber` (no manual transcription): every data line starts with a country code followed by a
+fixed number of values; `-` becomes empty (not available). Table 26 is a two-column list of
+feedstocks and is parsed separately. Values are as printed in the report (medium scenario).
+
+## Outputs
+
+One CSV per table in `outputs/biomass_inputs/`, indexed by country code (36 countries, ENSPRESO
+codes: `GR` for Greece, `UK` for the United Kingdom, `BH` for Bosnia and Herzegovina) unless noted:
+
+| File | Report table | Content | Unit |
+|------|--------------|---------|------|
+| `table10_biofuel_crops.csv` | Table 10 | Cost of biofuel crops (sugar beet, oil crops, starchy crops), 2010/2030/2050 | €2010/GJ |
+| `table11_dedicated_perennials.csv` | Table 11 | Cost of dedicated perennials (miscanthus, switchgrass, RCG), willow, poplar, 2020/2030/2050 | €2010/GJ |
+| `table12_manure.csv` – `table15_secondary_forest_residues.csv` | Tables 12–15 | Costs of manure, agricultural and forest residues | €2010/GJ |
+| `table20_biomass_emission_factors.csv` | Table 20 | Cultivation GHG emission factors per biomass type, 2010(2020)/2030/2050 | kgCO2eq/GJ |
+| `table26_heating_values.csv` | Table 26 (Annex 5) | Mean lower heating value per feedstock (indexed by feedstock) | GJ/t |
+
+Table 20 covers cultivation only (MITERRA-Europe: soil N2O, soil CO2 and organic soils, fertiliser
+production, mechanisation; report p. 67). It excludes indirect land-use change and processing.
+`0.0` in Table 20 means the crop is not produced in that country, not zero emissions.
+
+---
+
 # PyPSA-Eur output files summary
 
 The following files from this package are directly read by the PyPSA-Eur workflow
@@ -228,7 +269,8 @@ Copyright 2026 Alberto Alamia and Contributors to PyPSA-Eur
 The code in `scripts/` is released as free software under the MIT licence, see
 [LICENSE](LICENSE). However, different licenses and terms of use may apply to the various
 input data — see the per-dataset "Raw input" sections above for each dataset's own reference
-and access terms (Eurostat, Pilli et al./JRC, Avitabile et al./Figshare, FluxCom/Jung et al.).
+and access terms (Eurostat, Pilli et al./JRC, Avitabile et al./Figshare, FluxCom/Jung et al.,
+Ruiz et al./JRC ENSPRESO).
 
 ---
 
