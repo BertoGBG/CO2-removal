@@ -24,6 +24,7 @@ Usage:
     python afforestation_proposal/01_compute_afforestation_rates_pilli.py
 """
 
+import argparse
 from pathlib import Path
 
 import geopandas as gpd
@@ -165,6 +166,13 @@ def parse_age_values(row, age_cols):
     return np.array(vals)
 
 
+THINNING_THETA_DEFAULT = 0.35  # restoration-typical partial thinning (see
+                                # compute_rotation_age_and_mai). Adopted 2026-07 in
+                                # place of theta=1.0 (full commercial thinning) to
+                                # reflect that CDR-driven afforestation/restoration
+                                # projects are managed less intensively than the
+                                # commercial Pilli "H"/"HP"/"HS"/"MAN" curves assume.
+
 MIN_ROTATION_AGE = 25   # years — skip AgeCL_1 and AgeCL_2 (ages 5, 15)
 MAX_ROTATION_AGE = 100  # years — cap for managed commercial forest; yield tables beyond
                         # this age reflect old-growth dynamics or exclude thinning yields,
@@ -172,7 +180,7 @@ MAX_ROTATION_AGE = 100  # years — cap for managed commercial forest; yield tab
 MIN_VALID_AGE_CLASSES = 3  # require ≥3 age classes with data
 
 
-def compute_rotation_age_and_mai(standing_stock_values, nai_values=None):
+def compute_rotation_age_and_mai(standing_stock_values, nai_values=None, theta=1.0):
     """
     Determine optimal rotation age T* and standing-stock MAI from growth curves.
 
@@ -184,15 +192,23 @@ def compute_rotation_age_and_mai(standing_stock_values, nai_values=None):
       - Cumulative total production TP(T) = ∫₀ᵀ NAI(t) dt is computed from the
         Pilli NAI table. This includes thinning yields removed from the stand and
         therefore correctly represents the full productive capacity of the forest.
-      - T* = argmax TP(T)/T  within [MIN_ROTATION_AGE, MAX_ROTATION_AGE].
+      - A thinning-intensity parameter theta in [0,1] blends TP(T) toward the
+        standing stock V(T) before locating T*:
+            TP_theta(T) = V(T) + theta * (TP(T) - V(T))
+        theta=1 reproduces the full commercial-thinning assumption (TP_theta=TP);
+        theta=0 assumes no thinning removals contribute to locating T*
+        (TP_theta=V, equivalent to the fallback path below); intermediate values
+        (e.g. 0.3-0.5) represent restoration-typical light/progressive thinning.
+      - T* = argmax TP_theta(T)/T  within [MIN_ROTATION_AGE, MAX_ROTATION_AGE].
       - MAI_vol returned = V_standing(T*) / T*  (standing stock at T*, NOT total
-        production), because afforestation carbon credits count only carbon remaining
-        in the forest, not thinned material.
+        production, and NOT the theta-blended curve), because afforestation carbon
+        credits count only carbon remaining in the forest, not thinned material —
+        theta only shifts WHERE T* falls, never what is credited there.
 
     When NAI is unavailable (fallback):
       - T* = argmax V(T)/T from standing stock within the same window. This is
-        equivalent to the CAI-MAI crossing using standing stock alone, which
-        underestimates T* for managed thinned forests (thinning yields excluded).
+        equivalent to theta=0 (no thinning yields contribute to locating T*), and
+        underestimates T* relative to theta=1 for managed thinned forests.
 
     The cap MAX_ROTATION_AGE = 100 yr prevents artefacts in both approaches:
       - NAI path: handles the rare case where the total-production MAI keeps rising
@@ -215,6 +231,16 @@ def compute_rotation_age_and_mai(standing_stock_values, nai_values=None):
         for i in range(len(AGE_MIDPOINTS)):
             tp[i] = cum + nai_clean[i] * (AGE_DURATION / 2)
             cum   += nai_clean[i] * AGE_DURATION
+
+        # Blend toward standing stock by (1-theta); where stock is missing at an
+        # age point there is nothing to blend against, so that age keeps TP as-is.
+        if theta < 1.0:
+            has_stock = ~np.isnan(standing_stock_values)
+            tp = np.where(
+                has_stock,
+                standing_stock_values + theta * (tp - standing_stock_values),
+                tp,
+            )
 
         with np.errstate(invalid="ignore", divide="ignore"):
             mai_total = np.where(AGE_MIDPOINTS > 0, tp / AGE_MIDPOINTS, np.nan)
@@ -538,8 +564,18 @@ def expand_to_all_nuts2(agg: pd.DataFrame, country_agg: pd.DataFrame,
     return out
 
 
-def compute_rates():
-    """Main computation: rotation-averaged CO₂ sequestration rates per NUTS-2."""
+def compute_rates(theta: float = THINNING_THETA_DEFAULT):
+    """Main computation: rotation-averaged CO₂ sequestration rates per NUTS-2.
+
+    theta: thinning-intensity dial in [0,1] applied to the TP(T) curve used to
+    locate T* (see compute_rotation_age_and_mai). theta=1 reproduces the full
+    commercial-thinning assumption embedded in the Pilli managed-forest
+    ("H"/"HP"/"HS"/"MAN") curves; theta=0 assumes no thinning contributes to
+    locating T* (equivalent to the standing-stock-only fallback everywhere).
+    Default theta=0.35 represents restoration-typical light/progressive thinning.
+    The credited density always reads plain standing stock at T*, unaffected by
+    theta.
+    """
 
     print("Loading data...")
     stock_df = load_standing_stock()
@@ -598,7 +634,7 @@ def compute_rates():
             n_nai_fallback += 1
 
         # Find rotation age and volumetric MAI (NAI path preferred)
-        rotation_age, mai_vol, rot_idx = compute_rotation_age_and_mai(stock_vals, nai_vals)
+        rotation_age, mai_vol, rot_idx = compute_rotation_age_and_mai(stock_vals, nai_vals, theta=theta)
         if np.isnan(mai_vol) or rot_idx < 0:
             continue
 
@@ -757,14 +793,15 @@ def compute_rates():
     # ── Save outputs ─────────────────────────────────────────────────────────
     out_dir = ROOT_DIR / "outputs" / "afforestation"
     out_dir.mkdir(parents=True, exist_ok=True)
+    suffix = "" if theta == THINNING_THETA_DEFAULT else f"_theta{theta:g}"
 
     # Detailed per forest-type results
-    detail_path = out_dir / "afforestation_rates_per_forest_type.csv"
+    detail_path = out_dir / f"afforestation_rates_per_forest_type{suffix}.csv"
     results_df.to_csv(detail_path, index=False)
     print(f"\n  Saved detailed results: {detail_path}")
 
     # Aggregated NUTS-2 rates (Pilli regions only)
-    nuts2_path = out_dir / "afforestation_rates_nuts2.csv"
+    nuts2_path = out_dir / f"afforestation_rates_nuts2{suffix}.csv"
     agg.to_csv(nuts2_path, index=False)
     print(f"  Saved NUTS-2 rates:     {nuts2_path}")
 
@@ -772,7 +809,7 @@ def compute_rates():
     if NUTS2_GEOJSON.exists():
         print("\nExpanding to all NUTS2 regions in reference GeoJSON ...")
         full_df = expand_to_all_nuts2(agg, country_agg, NUTS2_GEOJSON)
-        full_path = out_dir / "afforestation_rates_nuts2_full.csv"
+        full_path = out_dir / f"afforestation_rates_nuts2_full{suffix}.csv"
         full_df.to_csv(full_path)
         print(f"  Saved full NUTS-2 rates: {full_path}")
     else:
@@ -782,4 +819,18 @@ def compute_rates():
 
 
 if __name__ == "__main__":
-    results_df, agg = compute_rates()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--thinning-theta", type=float, default=THINNING_THETA_DEFAULT,
+        help="Thinning-intensity dial in [0,1] blending TP(T) toward standing "
+             "stock V(T) before locating T* (see compute_rotation_age_and_mai). "
+             f"1.0 = full commercial thinning; 0.0 = no thinning; "
+             f"default {THINNING_THETA_DEFAULT} = restoration-typical partial thinning.",
+    )
+    parser.add_argument(
+        "--no-thinning", action="store_true",
+        help="Shorthand for --thinning-theta 0.0.",
+    )
+    args = parser.parse_args()
+    theta = 0.0 if args.no_thinning else args.thinning_theta
+    results_df, agg = compute_rates(theta=theta)
