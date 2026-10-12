@@ -135,9 +135,21 @@ Script: `scripts/afforestation/download_fluxcom.py`
 **Annual sequestration rates** (`01_compute_afforestation_rates_pilli.py`):
 
 For each combination of forest type, NUTS-2 region, and management type, the optimal
-rotation age T\* is identified as the age that maximises the volumetric Mean Annual
-Increment (MAI = standing stock / age). The rotation-averaged CO₂ sequestration rate is
-then computed as:
+rotation age T\* is the age that maximises the mean annual total production, within
+25–100 years. Total production TP(T) = ∫₀ᵀ NAI dt includes the wood removed by thinning,
+which the standing stock V(T) leaves out. Afforestation for carbon removal is thinned less
+intensively than the commercial stands in the Pilli library, so only a share θ of the
+thinned volume is counted:
+
+```
+TP_θ(T) = V(T) + θ × (TP(T) − V(T)),      θ = 0.35
+T*      = argmax TP_θ(T) / T,             25 ≤ T ≤ 100 yr
+```
+
+θ = 1 is full commercial thinning (the v1.0.1 release) and θ = 0 locates T\* on the
+standing stock alone. θ only moves T\*: the credited carbon is always the standing stock
+at T\*, since only carbon that stays in the forest counts as removal. The
+rotation-averaged CO₂ sequestration rate is:
 
 ```
 MAI_CO2 = (V(T*) / T*) × BCEF(T*) × 0.5 × (44/12) × (1 + 0.25)
@@ -147,6 +159,15 @@ MAI_CO2 = (V(T*) / T*) × BCEF(T*) × 0.5 × (44/12) × (1 + 0.25)
 where 0.5 is the IPCC carbon fraction, 44/12 is the CO₂-to-C molecular mass ratio,
 and 0.25 is the root-to-shoot ratio. Only productive even-aged high-forest stands
 (management types H, HP, HS, MAN) are included.
+
+Per NUTS-2 region, MAI_CO2 is averaged with equal weight over the forest types of each
+species group, and the conifer and broadleaf means are blended 50/50 (if only one group
+has data, its mean is used). The 50/50 split meets the EU Biodiversity Strategy 2030 and
+the national minimum broadleaf shares (20–30 %), and is conservative: a mix weighted
+towards the more productive group would give slightly higher rates.
+
+With θ = 0.35 the mean NUTS-2 rate is 5.32 tCO₂ ha⁻¹ yr⁻¹ (4.28 with θ = 1 in v1.0.1).
+Other values can be computed with `--thinning-theta` (`--no-thinning` for θ = 0).
 
 Regions not covered by the Pilli library (non-EU countries, small islands, city-states)
 are filled via a cascade: NUTS-1 propagation → country-level propagation → distance-based

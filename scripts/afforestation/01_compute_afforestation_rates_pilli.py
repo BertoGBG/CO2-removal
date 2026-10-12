@@ -6,11 +6,14 @@ Pipeline:
   1. Load standing stock (m³/ha) and BCEF (t_biomass/m³) by age class
   2. Filter to even-aged, high-forest productive stands (ForAWS)
   3. For each forest-type × region combination:
-       a) Determine rotation age T as the age where MAI_vol = stock(T)/T peaks
+       a) Determine rotation age T as the age (25-100 yr) where the
+          thinning-adjusted total production TP_theta(T)/T peaks,
+          TP_theta = stock + theta * (TP - stock), theta = 0.35
        b) Compute MAI_vol = standing_stock(T) / T  [m³/ha/yr]
        c) Compute MAI_biomass = MAI_vol × BCEF(T)  [t_DM/ha/yr]
        d) Compute MAI_CO2 = MAI_biomass × CF × CO2_C × (1 + RSR)  [tCO₂/ha/yr]
-  4. Average across forest types per region (equal-weight)
+  4. Average across forest types per region: equal weight within the conifer
+     and broadleaf groups, then 50/50 between the groups
   5. Map Pilli regions → NUTS-2 codes
   6. Expand to ALL NUTS2 regions in the reference GeoJSON via fallback cascade
   7. Output CSVs
