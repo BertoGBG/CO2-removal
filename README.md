@@ -11,8 +11,25 @@ Reference: https://arxiv.org/abs/2603.25663
 ## Overview
 
 This package provides the preprocessed input datasets for two Carbon Dioxide Removal (CDR)
-technologies implemented in PyPSA-Eur: **Afforestation** and **Perennialisation**.
-It also extracts upstream emissions for first generation biofuels from JRC ENSPRESO dataset
+technologies implemented in PyPSA-Eur, **Afforestation** and **Perennialisation**, and the
+**upstream (cultivation) emissions of first-generation biofuels and unsustainable solid biomass**
+(and the price of the latter) in PyPSA-Eur, extracted from the JRC ENSPRESO data.
+
+## Changes
+
+**v1.1.0**
+
+* Afforestation (growth method): the rotation age now counts only a share θ = 0.35 of the
+  thinned volume (thinning-intensity dial), instead of full commercial thinning (θ = 1).
+  The conifer/broadleaf split stays 50/50. The mean NUTS-2 rate rises from 4.28 to
+  5.32 tCO₂ ha⁻¹ yr⁻¹; see [Methodology summary](#methodology-summary).
+* New: method documentation `docs/afforestation_method.pdf`.
+* New: JRC ENSPRESO biomass tables, ENSPRESO database costs, gap-filled per-country tables, and
+  `outputs/biomass_inputs/unsustainable_biomass_upstream.csv` (upstream emission factors of
+  unsustainable bioethanol, biodiesel and solid biomass, and the EU willow price), see
+  [Biomass cost, emission and heating-value tables](#biomass-cost-emission-and-heating-value-tables-jrc-enspreso).
+
+**v1.0.1**: afforestation (density and growth methods) and perennialisation inputs.
 
 ---
 
@@ -43,6 +60,9 @@ data/
     Volume_increment_database/     ← standing stock and NAI curves
     Volume_biomass_bcef_database/  ← BCEF lookup table
     Volume_biomass_selection/      ← auxiliary biomass selection tables
+
+docs/
+  afforestation_method.pdf  ← method documentation for the afforestation growth method
 
 outputs/
   afforestation/    ← afforestation results (both methods)
@@ -92,7 +112,9 @@ Script: `scripts/afforestation/download_afforestation_data_avitabile.py`
 This is the recommended method described in the accompanying paper. It derives
 rotation-averaged CO₂ sequestration rates from European forest inventory data and
 distributes them across calendar months using observed Gross Primary Production (GPP).
-A full methodological description is given in the supplementary material of the paper.
+A full methodological description is given in
+[`docs/afforestation_method.pdf`](docs/afforestation_method.pdf) (A. Alamia, DTU Wind and Energy Systems,
+13 October 2026), which documents exactly the outputs in this release.
 
 ### Data sources
 
@@ -319,8 +341,10 @@ unsustainable biomass (Eurostat primary production phased out by 2040).
   (food and feed crop biofuels 10,097.9 ktoe − 0.86 × biogasoline 3,031.6 ktoe) / biodiesels 13,570.6 ktoe = 0.552.
 - **Willow price**: mean of the countries with a non-zero cost in the ENSPRESO database (`ENS_BaU_GFTM`, the method
   technology-data uses for its ENSPRESO prices), converted from €2010/GJ to €2025/MWh with the Eurostat HICP
-  (`data/biomass_inputs/eurostat_prc_hicp_aind.xlsx`, EEA, factor 1.444 as in technology-data). A single EU value, so
-  it is the same with or without spatially resolved biomass.
+  (`data/biomass_inputs/eurostat_prc_hicp_aind.xlsx`, EEA, factor 1.444 as in technology-data; Eurostat dataset
+  [prc_hicp_aind](https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table), data as of
+  6 February 2026). A single EU value, so it is the same with or without spatially resolved
+  biomass.
 
 ---
 
@@ -335,6 +359,7 @@ The following files from this package are directly read by the PyPSA-Eur workflo
 | `outputs/afforestation/afforestation_nuts2_monthly_weights.csv` | Afforestation | Monthly GPP weights for seasonal dispatch profile |
 | `outputs/perennialisation/eurostat_apro_cpshr_nuts2_raw.csv` | Perennialisation | Eurostat crop harvest at NUTS-2 |
 | `outputs/perennialisation/eurostat_apro_cpshr_nuts0_raw.csv` | Perennialisation | Eurostat crop harvest at NUTS-0 |
+| `outputs/biomass_inputs/unsustainable_biomass_upstream.csv` | Unsustainable biomass | Upstream emission factors per country and EU willow price |
 
 ---
 
