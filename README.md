@@ -346,6 +346,22 @@ unsustainable biomass (Eurostat primary production phased out by 2040).
   6 February 2026). A single EU value, so it is the same with or without spatially resolved
   biomass.
 
+**Inflation factor 2010 → 2025 (1.444).** ENSPRESO costs are in €2010. They are converted to €2025 with the
+annual rate of change of the Harmonised Index of Consumer Prices (HICP) for the European Economic Area (Eurostat
+`prc_hicp_aind`, extracted 13 February 2026, data as of 6 February 2026, file
+`data/biomass_inputs/eurostat_prc_hicp_aind.xlsx`), compounded over 2011–2025:
+
+factor = (1 + r₂₀₁₁) × (1 + r₂₀₁₂) × … × (1 + r₂₀₂₅) = 1.44426
+
+| Year | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| r (%) | 3.1 | 2.6 | 1.5 | 0.6 | 0.1 | 0.3 | 1.7 | 1.9 | 1.5 | 0.7 | 2.9 | 9.2 | 6.4 | 2.6 | 2.5 |
+
+This is the method of technology-data (`adjust_for_inflation` in `scripts/_helpers.py`: same Eurostat dataset
+and EEA row, cumulative product from the year after the currency year to the target year; a missing year would
+take the mean rate, but no year is missing here). It is computed in `inflation_factor()` of
+`scripts/biomass_inputs/compute_unsustainable_biomass_upstream.py`.
+
 ---
 
 # PyPSA-Eur output files summary
