@@ -1,4 +1,4 @@
-# Carbon Dioxide Removal (afforestation and perennialisation) input data for PyPSA-Eur
+# Carbon Dioxide Removal (afforestation and perennialisation) input data for PyPSA-Eur and CO2 upstream emissions for 1st generation biofuels
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20798511.svg)](https://doi.org/10.5281/zenodo.20798511)
 
@@ -12,6 +12,7 @@ Reference: https://arxiv.org/abs/2603.25663
 
 This package provides the preprocessed input datasets for two Carbon Dioxide Removal (CDR)
 technologies implemented in PyPSA-Eur: **Afforestation** and **Perennialisation**.
+It also extracts upstream emissions for first generation biofuels from JRC ENSPRESO dataset
 
 ---
 
