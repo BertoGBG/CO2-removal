@@ -17,7 +17,7 @@ technologies implemented in PyPSA-Eur, **Afforestation** and **Perennialisation*
 
 ## Changes
 
-**v1.1.0**
+**v1.0.2** ([Zenodo 10.5281/zenodo.23341173](https://doi.org/10.5281/zenodo.23341173))
 
 * Afforestation (growth method): the rotation age now counts only a share θ = 0.35 of the
   thinned volume (thinning-intensity dial), instead of full commercial thinning (θ = 1).
