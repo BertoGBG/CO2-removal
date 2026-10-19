@@ -17,6 +17,21 @@ technologies implemented in PyPSA-Eur, **Afforestation** and **Perennialisation*
 
 ## Changes
 
+**v1.0.3**
+
+* Upstream emissions of unsustainable biomass now count only what PyPSA-Eur does not already model:
+  field N2O of the crop and the production of the imported share (30%) of the N fertiliser. Farm
+  diesel and the European fertiliser production are left out, because PyPSA-Eur models the
+  agriculture energy demand and the ammonia produced in Europe. The values come from the JRC
+  input data of the RED default values (Edwards et al. 2019) instead of ENSPRESO Table 20:
+  bioethanol 0.086 and biodiesel 0.062 tCO2eq/MWh (EU values). Unsustainable solid biomass keeps
+  the full Table 20 willow factor: willow is hardly grown today, so its fertiliser and diesel are
+  not in the historical demand modelled by PyPSA-Eur.
+* New: `outputs/biomass_inputs/cultivation_emissions_1G.csv`, cultivation emissions of the 1G
+  crops per MWh of crop (field N2O and imported N fertiliser separately) and the N fertiliser
+  produced in Europe per MWh of crop, used by perennialisation in PyPSA-Eur (avoided ammonia
+  demand, and the combination with the upstream emissions).
+
 **v1.0.2** ([Zenodo 10.5281/zenodo.23341173](https://doi.org/10.5281/zenodo.23341173))
 
 * Afforestation (growth method): the rotation age now counts only a share θ = 0.35 of the
@@ -323,18 +338,43 @@ Country codes in the `*_filled.csv` files follow PyPSA-Eur (GB, GR, BA; Kosovo a
 one row per country (PyPSA-Eur codes), columns `<quantity>_<year>`, ready to use in PyPSA-Eur's
 unsustainable biomass (Eurostat primary production phased out by 2040).
 
-| Quantity | Unit | Calculation |
-|---|---|---|
-| `bioethanol` | tCO2eq/MWh fuel | Table 20 starchy crops × feedstock input 1.965 × crop share 0.86 |
-| `biodiesel` | tCO2eq/MWh fuel | Table 20 rapeseed × feedstock input 1.215 × crop share 0.552 |
-| `solid biomass` | tCO2eq/MWh | Table 20 willow (short rotation coppice), no conversion |
-| `solid biomass price` | €2025/MWh | one EU value, repeated per country (see below) |
+Only the cultivation emissions that PyPSA-Eur does not already model are counted:
 
-- **Feedstock input** = Table 26 heating value / (crop-to-fuel efficiency × fuel heating value), i.e. GJ of crop per GJ
-  of fuel on the report's own heating value basis. Efficiencies from JRC Technical Report doi:10.2760/69179 (wheat
-  0.295 t/t at 13.5% moisture, moved to the 14% Eurostat standard humidity; rapeseed 0.4176 t/t); fuel heating values
-  ethanol 26.81 and biodiesel 36.7 GJ/t. All cultivation emissions are allocated to the fuel (none to co-products),
-  so the values are an upper bound.
+| Part | Counted | Why |
+|---|---|---|
+| Field N2O (direct and indirect) | yes | not modelled in PyPSA-Eur |
+| N fertiliser production | imported share only (30%) | PyPSA-Eur models the ammonia produced in Europe |
+| Farm diesel | no | PyPSA-Eur models the agriculture energy demand |
+| P2O5, K2O, lime, pesticides | no | small (about 2 gCO2eq/MJ crop) |
+
+This applies to the 1G crops, which are grown today, so their fertiliser and diesel are in the historical demand
+of PyPSA-Eur. Willow (unsustainable solid biomass) is hardly grown today and keeps its full cultivation emissions.
+
+| Quantity | Unit | Calculation | Value |
+|---|---|---|---|
+| `bioethanol` | tCO2eq/MWh fuel | wheat: (field N2O + 0.30 × N fertiliser) × crop per fuel × crop share 0.86 | 0.086 |
+| `biodiesel` | tCO2eq/MWh fuel | rapeseed: (field N2O + 0.30 × N fertiliser) × crop per fuel × crop share 0.552 | 0.062 |
+| `solid biomass` | tCO2eq/MWh | Table 20 willow (short rotation coppice), full cultivation emissions, per country | median 0.066 |
+| `solid biomass price` | €2025/MWh | one EU willow value (see below), not used by PyPSA-Eur | |
+
+Bioethanol and biodiesel are EU averages, repeated for every country and year (the layout read by PyPSA-Eur).
+
+- **Cultivation inputs** per MJ of crop, EU averages of the JRC input data for the RED default values (Edwards et
+  al. 2019, Tables 87 wheat, 131 sugar beet, 148 rapeseed): field N2O 0.0444, 0.01257 and 0.0572 g N2O/MJ
+  (GWP 298); N fertiliser 0.0013, 0.00035 and 0.00184 kg N/MJ at 4,571.9 gCO2eq/kg N (Table 47).
+- **Imported N fertiliser**: 30% of the EU nitrogen fertiliser is imported (European Commission 2022).
+- **Crop per fuel**: tonne of fuel per tonne of crop from JRC Technical Report doi:10.2760/69179 (wheat 0.295 t/t at
+  13.5% moisture, rapeseed 0.4176 t/t at 9%), JRC crop heating values (wheat 17.0, rapeseed 27.0 MJ/kg dry), fuel
+  heating values ethanol 26.81 and biodiesel 36.7 GJ/t. All cultivation emissions are allocated to the fuel (none
+  to co-products), so the values are an upper bound.
+- **`cultivation_emissions_1G.csv`**: the same emissions per MWh of crop for cereals, sugar beet and rapeseed, field
+  N2O and imported N fertiliser in separate columns, and the N fertiliser produced in Europe (70% of the use) in
+  kg N per MWh of crop, on the heating value basis of the ENSPRESO 1G potentials (Table 26; sugar beet per tonne of
+  dry matter, 25% dry matter as in JRC Table 131).
+
+References: Edwards, R. et al. (2019), *Definition of input data to assess GHG default emissions from biofuels in
+EU legislation*, version 1d, JRC, EUR 28349 EN, doi:10.2760/69179. European Commission (2022), *Ensuring
+availability and affordability of fertilisers*, COM(2022) 590.
 - **Crop share**: fuel from waste and residues has no cultivation emissions. Bioethanol: crops are 86% of EU ethanol
   feedstock, 2020–2022 (European Commission DG AGRI, *EU agricultural outlook 2023–2035*, p. 32). Biodiesel (incl.
   HVO, bio jet and other liquid biofuels): Eurostat SHARES 2024 (v2024.120925), sheet TRANSPORT, EU27 in 2021:
@@ -376,6 +416,7 @@ The following files from this package are directly read by the PyPSA-Eur workflo
 | `outputs/perennialisation/eurostat_apro_cpshr_nuts2_raw.csv` | Perennialisation | Eurostat crop harvest at NUTS-2 |
 | `outputs/perennialisation/eurostat_apro_cpshr_nuts0_raw.csv` | Perennialisation | Eurostat crop harvest at NUTS-0 |
 | `outputs/biomass_inputs/unsustainable_biomass_upstream.csv` | Unsustainable biomass | Upstream emission factors per country and EU willow price |
+| `outputs/biomass_inputs/cultivation_emissions_1G.csv` | Unsustainable biomass and perennialisation | Cultivation emissions of the 1G crops per MWh of crop |
 
 ---
 
